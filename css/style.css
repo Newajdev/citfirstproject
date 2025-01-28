@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", serif;
+}
+
+.btnPrimary {
+    padding: 14px 28px;
+    background: #8454F5;
+    color: aliceblue;
+    border-radius: 18px;
+    border: 2px solid #8454F5;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btnPrimary:hover {
+    background: #ffffff;
+    border: 2px solid #8454F5;
+    color: #8454F5;
+}
+.title{
+    font-weight: 600px;
+    font-size: 48px ;
+}
+
+/* ------------------------------------------------ */
+header {
+    background: #F4FDFF;
+    height: 100vh;
+}
+
+/* ----------------Navbar Styles---------------- */
+.container {
+    width: 1410px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    padding: 32px 0;
+}
+
+nav:hover {
+    box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.050);
+}
+
+.logo {
+    width: 20%;
+}
+
+.menubar {
+    width: 60%;
+}
+
+li {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+}
+
+.main-ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20px 0px;
+}
+
+.main-ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-ul li a i {
+    padding-left: 8px;
+}
+
+.main-ul li a:hover {
+    color: #8454F5;
+}
+
+.button {
+    width: 20%;
+}
+
+.Home {
+    position: relative;
+}
+
+.sub-ul {
+    position: absolute;
+    padding: 20px;
+    top: 50px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.Home:hover .sub-ul {
+    top: 20px;
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.About {
+    position: relative;
+}
+
+.About:hover .sub-ul {
+    top: 20px;
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.Service {
+    position: relative;
+}
+
+.Service:hover .sub-ul {
+    top: 20px;
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.Portfolio {
+    position: relative;
+}
+
+.Portfolio:hover .sub-ul {
+    top: 20px;
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.Price {
+    position: relative;
+}
+
+.Price:hover .sub-ul {
+    top: 20px;
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.Blog {
+    position: relative;
+}
+
+.Blog:hover .sub-ul {
+    top: 20px;
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.sub-ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+/* ----------------Navbar Styles End---------------- */
+/* ----------------banner Styles Start---------------- */
+.banner-container {
+    position: relative;
+}
+.bglines {
+    position: absolute;
+    top: -60px;
+    left: 0%;
+    animation: bglines 1.5s infinite alternate;
+}
+.yellowbox {
+    position: absolute;
+    top: 210px;
+    left: 80px;
+}
+.greenbox {
+    position: absolute;
+    top: 210px;
+    right: 0px;
+}
+.hand-left {
+    position: absolute;
+    top: 115px;
+    left: 80px;
+}
+.hand-right {
+    position: absolute;
+    top: 122px;
+    right: 150px;
+}
+.arrow {
+    position: absolute;
+    top: 50px;
+    left: 610px;
+    animation: arrow 1.5s infinite alternate;
+}
+.dots {
+    position: absolute;
+    top: 600px;
+    left: 1025px;
+    animation: dots 1.5s infinite alternate;
+}
+.content-box {
+    width: 464px;
+    height: 390px;
+    position: absolute;
+    top: 180px;
+    left: 670px;
+}
+.header-title {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.header-description {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+/* --------------Best Services Start------------*/
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.services-container{
+    margin: 100px 255px ;
+}
+.services-container .title{
+    text-align: center;
+}
+.service-card{
+    width: 290px;
+    height: 295px;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+.service-card:hover{
+    box-shadow:  0px 2px 18px 10px rgba(0, 0, 0, 0.050);
+    border-radius: 5px;
+}
+.card-image{
+    width: 100px;
+    height: 100px;
+    background: #b3b3b3;
+    border-radius: 30px;
+   margin-bottom: 24px; 
+}
+.card-title{
+    font-weight: 600px;
+    font-size: 28px;
+    margin-bottom: 14px; 
+}
+.card-description{
+    font-weight: 400px;
+    font-size: 18px;
+    margin-bottom: 24px; 
+}
+strong{
+    font-weight: 700px;
+    font-size: 16px;
+}
+/* --------------Best Services End------------*/
+/* animations KeyFrams */
+@keyframes arrow {
+    from {
+        top: 50px;
+        left: 610px;
+    }
+
+    To {
+        top: 50px;
+        left: 590px;
+    }
+
+}
+@keyframes dots {
+    from {
+        top: 600px;
+        left: 1025px;
+    }
+
+    To {
+        top: 600px;
+        left: 1000px;
+    }
+
+}
+
+@keyframes bglines {
+    from {
+        top: -60px;
+        left: 0%;
+    }
+
+    To {
+        top: -40px;
+        left: 0%;
+    }
+
+}
