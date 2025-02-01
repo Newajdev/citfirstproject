@@ -297,6 +297,7 @@ strong{
 /* -------------Innovate Section Start------- */
 .inovate-container{
     display: flex;
+    justify-content: space-between;
     column-gap: 60px;
     margin: 120px 255px ;
 }
@@ -347,7 +348,7 @@ strong{
 
 .images-container{
     display: flex;
-    column-gap: 30px;
+    justify-content: space-between;
 }
 .images-container .img{
     width: 330px;
@@ -368,6 +369,117 @@ strong{
     border-radius: 100px;
 }
 /* -------------Showcase Section End------- */
+/* -------------Trusted section start------- */
+.trusted-container{
+    width: 1440px;
+    margin: 120px auto;
+}
+.trusted-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trusted-content .title{
+    width: 520px ;
+}
+.trusted-content .btnPrimary{
+    width: 151px ;
+    height: 64px;
+}
+.trusted-company{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.btn-companies{
+    font-size: 28px;
+    font-weight: 600;
+    padding: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #F3F7FD;
+}
+.btn-companies:hover{
+    background: #6955ea3b;
+}
+.btn-companies i {
+    margin-right: 20px;
+}
+
+/* -------------Trusted section End------- */
+/* -------------Footer section Start------- */
+/* -------------Startprojects section Start------- */
+.startprojects-container{
+    width: 1440px;
+    margin: 120px auto;
+}
+.startprojects-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6A55EA;
+    padding: 140px 120px;
+    border-radius: 80px;
+}
+.startprojects-content .title{
+    width: 520px ;
+    color: #FDFDFD;
+}
+.startprojects-content .btnPrimary{
+    width: 151px ;
+    height: 64px;
+    background: #FDFDFD;
+    color: #6A55EA;
+}
+.startprojects-content .btnPrimary:hover{
+    color: #FDFDFD;
+    background: #6955ea36;
+    border: 2px solid #FDFDFD;
+}
+/* -------------Startprojects section End------- */
+footer{
+    width: 1440px;
+    margin: 120px auto 20px auto;
+}
+.footer-Container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-Container .description{
+    width: 450px;
+    margin-top: 44px;
+}
+.Title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 48px ;
+}
+.options{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px ;
+    position: relative;
+    
+}
+.options a{
+    text-decoration: none;
+    color: #29313D;
+}
+.copyright{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright div{
+    display: flex;
+    column-gap:60px ;
+}
+.copyright div a{
+    text-decoration: none;
+    color: #29313D;
+}
+/* -------------Footer section End------- */
 /* animations KeyFrams */
 @keyframes arrow {
     from {
@@ -405,9 +517,4 @@ strong{
         left: 0%;
     }
 
-}
-
-.one{
-    height: 500px;
-    background-image: url('../images/man.jpg');
 }
