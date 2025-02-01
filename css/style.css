@@ -19,17 +19,20 @@
     border: 2px solid #8454F5;
     color: #8454F5;
 }
-.title{
+
+.title {
     font-weight: 600px;
-    font-size: 48px ;
-    color:#29313D;
+    font-size: 48px;
+    color: #29313D;
 }
-.description{
+
+.description {
     font-weight: 400px;
     font-size: 18px;
     margin-bottom: 24px;
 }
-nav{
+
+nav {
     background: #F4FDFF;
     z-index: 3;
 }
@@ -77,6 +80,7 @@ li {
     list-style: none;
     padding: 20px 0px;
 }
+
 .main-ul li a {
     text-decoration: none;
     color: black;
@@ -105,8 +109,9 @@ li {
     left: 0;
     opacity: 0;
     visibility: hidden;
-    transition: .4s;  
+    transition: .4s;
 }
+
 .Home:hover .sub-ul {
     top: 30px;
     left: 0;
@@ -198,6 +203,7 @@ li {
     position: relative;
 
 }
+
 .bglines {
     background: #F4FDFF;
     position: absolute;
@@ -206,38 +212,45 @@ li {
     animation: bglines 1.5s infinite alternate;
     z-index: -1;
 }
+
 .yellowbox {
     position: absolute;
     top: 210px;
     left: 80px;
 }
+
 .greenbox {
     position: absolute;
     top: 210px;
     right: 0px;
 }
+
 .hand-left {
     position: absolute;
     top: 115px;
     left: 80px;
 }
+
 .hand-right {
     position: absolute;
     top: 122px;
     right: 150px;
 }
+
 .arrow {
     position: absolute;
     top: 50px;
     left: 610px;
     animation: arrow 1.5s infinite alternate;
 }
+
 .dots {
     position: absolute;
     top: 600px;
     left: 1025px;
     animation: dots 1.5s infinite alternate;
 }
+
 .content-box {
     width: 464px;
     height: 390px;
@@ -245,153 +258,182 @@ li {
     top: 180px;
     left: 670px;
 }
+
 .header-title {
     font-size: 64px;
     font-weight: 900;
     margin-bottom: 30px;
 }
+
 .header-description {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 60px;
 }
+
 /* --------------Best Services Start------------*/
-.card-container{
+.card-container {
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
 }
-.services-container{
-    margin: 100px 255px ;
+
+.services-container {
+    margin: 100px 255px;
 }
-.services-container .title{
+
+.services-container .title {
     text-align: center;
 }
-.service-card{
+
+.service-card {
     width: 290px;
     height: 295px;
     border-radius: 5px;
     padding: 30px 20px;
 }
-.service-card:hover{
-    box-shadow:  0px 2px 18px 10px rgba(0, 0, 0, 0.050);
+
+.service-card:hover {
+    box-shadow: 0px 2px 18px 10px rgba(0, 0, 0, 0.050);
     border-radius: 5px;
 }
-.card-image{
+
+.card-image {
     width: 100px;
     height: 100px;
     background: #b3b3b3;
     border-radius: 30px;
-   margin-bottom: 24px; 
+    margin-bottom: 24px;
 }
-.card-title{
+
+.card-title {
     font-weight: 600px;
     font-size: 28px;
-    margin-bottom: 14px; 
+    margin-bottom: 14px;
 }
-strong{
+
+strong {
     font-weight: 700px;
     font-size: 16px;
 }
+
 /* --------------Best Services End------------*/
 /* -------------Innovate Section Start------- */
-.inovate-container{
+.inovate-container {
     display: flex;
     justify-content: space-between;
     column-gap: 60px;
-    margin: 120px 255px ;
+    margin: 120px 255px;
 }
-.inovate-image{
+
+.inovate-image {
     width: 540px;
     height: 620px;
     background: #EEF1F6;
     border-radius: 50px;
     position: relative;
 }
-.inovate-image .img{
+
+.inovate-image .img {
     width: 300px;
     height: 620px;
     position: absolute;
     background: #C4C4C4;
-    top:-24px;
+    top: -24px;
     left: 118px;
 }
-.inovate-content{
+
+.inovate-content {
     width: 672px;
     height: 557px;
     margin: 40px 0;
 }
-.inovate-content .description{
+
+.inovate-content .description {
     margin: 25px 0;
 }
-.inovate-card{
+
+.inovate-card {
     display: flex;
 }
+
 /* -------------Innovate Section End------- */
 /* -------------Showcase Section Start------- */
-.showcase-container{
-    margin: 120px 255px ;
-    
-}
-.showcase-container .title{
-    text-align: center;
-    margin-bottom: 25px;   
-}
-.showcase-container .title{
-    text-align: center;
-    margin-bottom: 25px;   
-}
-.showcase-container .description{
-    text-align: center;
-    margin-bottom: 60px;   
+.showcase-container {
+    margin: 120px 255px;
+
 }
 
-.images-container{
+.showcase-container .title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.showcase-container .title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.showcase-container .description {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.images-container {
     display: flex;
     justify-content: space-between;
 }
-.images-container .img{
+
+.images-container .img {
     width: 330px;
     height: 715px;
     background: #C4C4C4;
     border-radius: 20px;
 }
-.point-dots{
+
+.point-dots {
     display: flex;
     justify-content: center;
-    column-gap: 20px ;
-    margin-top: 60px ;
+    column-gap: 20px;
+    margin-top: 60px;
 }
-.navigation-dots{
+
+.navigation-dots {
     width: 10px;
     height: 10px;
     background: #6A55EA4D;
     border-radius: 100px;
 }
+
 /* -------------Showcase Section End------- */
 /* -------------Trusted section start------- */
-.trusted-container{
+.trusted-container {
     width: 1440px;
     margin: 120px auto;
 }
-.trusted-content{
+
+.trusted-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.trusted-content .title{
-    width: 520px ;
+
+.trusted-content .title {
+    width: 520px;
 }
-.trusted-content .btnPrimary{
-    width: 151px ;
+
+.trusted-content .btnPrimary {
+    width: 151px;
     height: 64px;
 }
-.trusted-company{
+
+.trusted-company {
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
 }
-.btn-companies{
+
+.btn-companies {
     font-size: 28px;
     font-weight: 600;
     padding: 40px;
@@ -399,21 +441,144 @@ strong{
     border: none;
     background: #F3F7FD;
 }
-.btn-companies:hover{
+
+.btn-companies:hover {
     background: #6955ea3b;
 }
+
 .btn-companies i {
     margin-right: 20px;
 }
 
 /* -------------Trusted section End------- */
-/* -------------Footer section Start------- */
 /* -------------Startprojects section Start------- */
-.startprojects-container{
+/* ------------- Pricing section Start------- */
+/* ------------- Pricing section End------- */
+/* ------------- Recent posts section Start------- */
+.recentpost-container {
+    width: 1440px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-container {
+    width: 64%;
+}
+
+.left-container h1 {
+    margin-bottom: 68px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.post-img {
+    width: 330px;
+    height: 340px;
+    border-radius: 40px;
+    background: #C4C4C4;
+    margin-right: 30px;
+}
+
+.posts .post-info h2 {
+    width: 552px;
+    font-size: 36px;
+    margin-bottom: 28px;
+}
+
+.posts .post-info p {
+    width: 440px;
+}
+
+.posts .post-info .user-info .profile h3 {
+    font-size: 28px;
+}
+
+.user-info {
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.user-img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    background: #C4C4C4;
+    margin-right: 20px;
+}
+
+.left-container button {
+    margin-top: 20px;
+}
+
+.right-container {
+    width: 34%;
+}
+
+.social-icons {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    margin-bottom: 68px;
+}
+.social-icons h3{
+    font-size: 28px;
+    margin-right: 36px;
+}
+
+
+.social-icons .icons {
+    width: 24px;
+    height: 24px;
+    padding: 20px;
+    background: #6A55EA1A;
+    border-radius: 50px;
+    text-align: center;
+}
+.icons:hover{
+    background: #6A55EA;
+    color: #F4FDFF;
+}
+.hastag i{
+    width: 36px;
+    height: 36px;
+    background-image: linear-gradient(#FAAC54, #A934AE);
+    background-clip: text;
+    color: transparent;
+}
+.hastag{
+font-style: 28px;
+font-weight: 400;
+margin: 20px 0 34px 0;
+}
+
+.hastag a{
+text-decoration: none;
+color: #29313D;
+}
+.insta-view{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.insta-postimg{
+    width: 210px;
+    height: 210px;
+    border-radius: 20px;
+    background: #C4C4C4;
+}
+/* ------------- Recent posts section End------- */
+.startprojects-container {
     width: 1440px;
     margin: 120px auto;
 }
-.startprojects-content{
+
+.startprojects-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -421,64 +586,78 @@ strong{
     padding: 140px 120px;
     border-radius: 80px;
 }
-.startprojects-content .title{
-    width: 520px ;
+
+.startprojects-content .title {
+    width: 520px;
     color: #FDFDFD;
 }
-.startprojects-content .btnPrimary{
-    width: 151px ;
+
+.startprojects-content .btnPrimary {
+    width: 151px;
     height: 64px;
     background: #FDFDFD;
     color: #6A55EA;
 }
-.startprojects-content .btnPrimary:hover{
+
+.startprojects-content .btnPrimary:hover {
     color: #FDFDFD;
     background: #6955ea36;
     border: 2px solid #FDFDFD;
 }
+
 /* -------------Startprojects section End------- */
-footer{
+/* -------------Footer section Start------- */
+footer {
     width: 1440px;
     margin: 120px auto 20px auto;
 }
-.footer-Container{
+
+.footer-Container {
     display: flex;
     justify-content: space-between;
 }
-.footer-Container .description{
+
+.footer-Container .description {
     width: 450px;
     margin-top: 44px;
 }
-.Title{
+
+.Title {
     font-size: 24px;
     font-weight: 600;
-    margin-bottom: 48px ;
+    margin-bottom: 48px;
 }
-.options{
+
+.options {
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
     position: relative;
-    
+
 }
-.options a{
+
+.options a {
     text-decoration: none;
     color: #29313D;
 }
-.copyright{
+
+.copyright {
     width: 1440px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.copyright div{
+
+.copyright div {
     display: flex;
-    column-gap:60px ;
+    column-gap: 60px;
 }
-.copyright div a{
+
+.copyright div a {
     text-decoration: none;
     color: #29313D;
 }
+
 /* -------------Footer section End------- */
 /* animations KeyFrams */
 @keyframes arrow {
@@ -493,6 +672,7 @@ footer{
     }
 
 }
+
 @keyframes dots {
     from {
         top: 600px;
