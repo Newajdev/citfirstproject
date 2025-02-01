@@ -29,10 +29,13 @@
     font-size: 18px;
     margin-bottom: 24px;
 }
+nav{
+    background: #F4FDFF;
+    z-index: 3;
+}
 
 /* ------------------------------------------------ */
 header {
-    background: #F4FDFF;
     height: 100vh;
 }
 
@@ -43,6 +46,7 @@ header {
     margin: 0 auto;
     display: flex;
     padding: 32px 0;
+    z-index: 8;
 }
 
 nav:hover {
@@ -73,7 +77,6 @@ li {
     list-style: none;
     padding: 20px 0px;
 }
-
 .main-ul li a {
     text-decoration: none;
     color: black;
@@ -97,19 +100,21 @@ li {
 
 .sub-ul {
     position: absolute;
-    padding: 20px;
-    top: 50px;
+    padding: 5px 20px;
+    top: 60px;
     left: 0;
     opacity: 0;
     visibility: hidden;
-    transition: .4s;
+    transition: .4s;  
 }
-
 .Home:hover .sub-ul {
-    top: 20px;
+    top: 30px;
     left: 0;
     opacity: 1;
     visibility: visible;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.050);
 }
 
 .About {
@@ -117,10 +122,13 @@ li {
 }
 
 .About:hover .sub-ul {
-    top: 20px;
+    top: 30px;
     left: 0;
     opacity: 1;
     visibility: visible;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.050);
 }
 
 .Service {
@@ -128,10 +136,13 @@ li {
 }
 
 .Service:hover .sub-ul {
-    top: 20px;
+    top: 30px;
     left: 0;
     opacity: 1;
     visibility: visible;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.050);
 }
 
 .Portfolio {
@@ -139,10 +150,13 @@ li {
 }
 
 .Portfolio:hover .sub-ul {
-    top: 20px;
+    top: 30px;
     left: 0;
     opacity: 1;
     visibility: visible;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.050);
 }
 
 .Price {
@@ -150,10 +164,13 @@ li {
 }
 
 .Price:hover .sub-ul {
-    top: 20px;
+    top: 30px;
     left: 0;
     opacity: 1;
     visibility: visible;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.050);
 }
 
 .Blog {
@@ -161,10 +178,13 @@ li {
 }
 
 .Blog:hover .sub-ul {
-    top: 20px;
+    top: 30px;
     left: 0;
     opacity: 1;
     visibility: visible;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.050);
 }
 
 .sub-ul li {
@@ -176,12 +196,15 @@ li {
 /* ----------------banner Styles Start---------------- */
 .banner-container {
     position: relative;
+
 }
 .bglines {
+    background: #F4FDFF;
     position: absolute;
     top: -60px;
     left: 0%;
     animation: bglines 1.5s infinite alternate;
+    z-index: -1;
 }
 .yellowbox {
     position: absolute;
@@ -284,7 +307,7 @@ strong{
     border-radius: 50px;
     position: relative;
 }
-.inovate-image img{
+.inovate-image .img{
     width: 300px;
     height: 620px;
     position: absolute;
@@ -326,7 +349,7 @@ strong{
     display: flex;
     column-gap: 30px;
 }
-.images-container img{
+.images-container .img{
     width: 330px;
     height: 715px;
     background: #C4C4C4;
@@ -382,4 +405,9 @@ strong{
         left: 0%;
     }
 
+}
+
+.one{
+    height: 500px;
+    background-image: url('../images/man.jpg');
 }
