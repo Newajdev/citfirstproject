@@ -440,13 +440,17 @@ strong {
     border-radius: 20px;
     border: none;
     background: #F3F7FD;
+    display: flex;
+    align-items: center;
 }
 
 .btn-companies:hover {
     background: #6955ea3b;
 }
 
-.btn-companies i {
+.btn-companies img {
+    width: 41px;
+    height: 32px;
     margin-right: 20px;
 }
 
