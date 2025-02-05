@@ -297,13 +297,29 @@ li {
     box-shadow: 0px 2px 18px 10px rgba(0, 0, 0, 0.050);
     border-radius: 5px;
 }
-
 .card-image {
     width: 100px;
     height: 100px;
-    background: #b3b3b3;
+    background-image: url('../images/app1.jpeg');
     border-radius: 30px;
     margin-bottom: 24px;
+    background-size: cover;
+    background-position: center;
+}
+#app-icon02{
+    background-image: url('../images/app2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#app-icon03{
+    background-image: url('../images/app3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#app-icon04{
+    background-image: url('../images/app4.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .card-title {
@@ -329,20 +345,65 @@ strong {
 .inovate-image {
     width: 540px;
     height: 620px;
-    background: #EEF1F6;
+    background-image: url('../images/ecobg.jpg');
+    background-size: cover;
+    background-position: center;
     border-radius: 50px;
     position: relative;
 }
-
 .inovate-image .img {
     width: 300px;
     height: 620px;
+    border-radius: 20px;
     position: absolute;
-    background: #C4C4C4;
+    background-image: url('../images/e-coapp.jpg');
+    background-size: cover;
+    background-position: center;
     top: -24px;
     left: 118px;
+    box-shadow: 0px 2px 18px 10px rgba(0, 0, 0, 0.050);
 }
-
+.browse-container .inovate-image {
+    width: 540px;
+    height: 620px;
+    background-image: url('../images/healthbg.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position: relative;
+}
+.browse-container .inovate-image .img {
+    width: 300px;
+    height: 620px;
+    border-radius: 20px;
+    position: absolute;
+    background-image: url('../images/healthapp.jpg');
+    background-size: cover;
+    background-position: center;
+    top: -24px;
+    left: 118px;
+    box-shadow: 0px 2px 18px 10px rgba(0, 0, 0, 0.050);
+}
+#app-icon05{
+    background-image: url('../images/app5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#app-icon06{
+    background-image: url('../images/app6.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#app-icon07{
+    background-image: url('../images/app7.png');
+    background-size: cover;
+    background-position: center;
+}
+#app-icon08{
+    background-image: url('../images/app8.png');
+    background-size: cover;
+    background-position: center;
+}
 .inovate-content {
     width: 672px;
     height: 557px;
@@ -387,8 +448,20 @@ strong {
 .images-container .img {
     width: 330px;
     height: 715px;
-    background: #C4C4C4;
+    background-image: url('../images/showapp1.jpg');
+    background-size: cover;
+    background-position: center;
     border-radius: 20px;
+    box-shadow: 0px 2px 18px 10px rgba(0, 0, 0, 0.050);
+}
+.images-container .img:nth-child(2) {
+    background-image: url('../images/showapp2.jpg');
+}
+.images-container .img:nth-child(3) {
+    background-image: url('../images/showapp3.jpg');
+}
+.images-container .img:nth-child(4) {
+    background-image: url('../images/showapp4.jpg');
 }
 
 .point-dots {
@@ -401,8 +474,11 @@ strong {
 .navigation-dots {
     width: 10px;
     height: 10px;
-    background: #6A55EA4D;
+    background: #6955ea44;
     border-radius: 100px;
+}
+.navigation-dots:nth-child(3) {
+    background: #6955ea;
 }
 
 /* -------------Showcase Section End------- */
@@ -604,9 +680,21 @@ span {
     width: 330px;
     height: 340px;
     border-radius: 40px;
-    background: #C4C4C4;
+    background-image: url('../images/postsimg01.jpg');
+    background-size: cover;
+    background-position: center;
     margin-right: 30px;
 }
+.thumnill2 {
+    width: 330px;
+    height: 340px;
+    border-radius: 40px;
+    background-image: url('../images/postsimg02.webp');
+    background-size: cover;
+    background-position: center;
+    margin-right: 30px;
+}
+
 
 .posts .post-info h2 {
     width: 552px;
@@ -631,7 +719,18 @@ span {
     width: 64px;
     height: 64px;
     border-radius: 50px;
-    background: #C4C4C4;
+    background-image: url('../images/projileimage01.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+.profile2 {
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    background-image: url('../images/projileimage02.jpg');
+    background-size: cover;
+    background-position: center;
     margin-right: 20px;
 }
 
@@ -699,7 +798,18 @@ span {
     width: 210px;
     height: 210px;
     border-radius: 20px;
-    background: #C4C4C4;
+    background-image: url('../images/postsimg03.webp');
+    background-size: cover;
+    background-position: center;
+}
+.insta-view .insta-postimg:nth-child(2){
+    background-image: url('../images/postsimg04.webp');
+}
+.insta-view .insta-postimg:nth-child(3){
+    background-image: url('../images/postsimg05.png');
+}
+.insta-view .insta-postimg:nth-child(4){
+    background-image: url('../images/postsimg06.webp');
 }
 
 /* ------------- Recent posts section End------- */
@@ -765,6 +875,9 @@ footer {
     margin-bottom: 30px;
     position: relative;
 
+}
+.options a:hover{
+    color: #6A55EA;
 }
 
 .options a {

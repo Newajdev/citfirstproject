@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Innovate.com</title>
     <link rel="icon" type="image/x-icon" href="images/Logo.png">
-    <link rel="stylesheet" href="css/style.css">
+
+
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -110,27 +113,28 @@
         <section>
             <div class="services-container">
                 <h1 class="title">We offer best services</h1>
+                <div class="one"></div>
                 <div class="card-container">
                     <div class="service-card">
-                        <div class="card-image"><img src="" alt=""></div>
+                        <div class="card-image" id="app-icon01"></div>
                         <h3 class="card-title">Easy to use</h3>
                         <p class="description">Jolly good excuse my french boot super my good sir cup </p>
                         <strong>Read more</strong>
                     </div>
                     <div class="service-card">
-                        <div class="card-image"></div>
+                        <div class="card-image" id="app-icon02"></div>
                         <h3 class="card-title">App development</h3>
                         <p class="description">Jolly good excuse my french boot super my good sir cup </p>
                         <strong>Read more</strong>
                     </div>
                     <div class="service-card">
-                        <div class="card-image"><img src="" alt=""></div>
+                        <div class="card-image" id="app-icon03"></div>
                         <h3 class="card-title">Fully functional</h3>
                         <p class="description">Jolly good excuse my french boot super my good sir cup </p>
                         <strong>Read more</strong>
                     </div>
                     <div class="service-card">
-                        <div class="card-image"><img src="" alt=""></div>
+                        <div class="card-image" id="app-icon04"></div>
                         <h3 class="card-title">Secured protocol</h3>
                         <p class="description">Jolly good excuse my french boot super my good sir cup </p>
                         <strong>Read more</strong>
@@ -151,13 +155,13 @@
                         char richard about chinwag.</p>
                     <div class="inovate-card">
                         <div class="service-card">
-                            <div class="card-image"><img src="" alt=""></div>
+                            <div class="card-image" id="app-icon05"></div>
                             <h3 class="card-title">Carefully designed</h3>
                             <p class="description">Jolly good excuse my french boot super my good sir cup </p>
                             <strong>Read more</strong>
                         </div>
                         <div class="service-card">
-                            <div class="card-image"><img src="" alt=""></div>
+                            <div class="card-image" id="app-icon06"></div>
                             <h3 class="card-title">Seamless Sync</h3>
                             <p class="description">Jolly good excuse my french boot super my good sir cup </p>
                             <strong>Read more</strong>
@@ -168,7 +172,7 @@
         </section>
         <!-- Innovate Section End -->
         <!-- Browse Section start -->
-        <section>
+        <section class="browse-container">
             <div class="inovate-container">
                 <div class="inovate-content">
                     <h1 class="title">Browse over 40k resources over the world</h1>
@@ -176,13 +180,13 @@
                         char richard about chinwag.</p>
                     <div class="inovate-card">
                         <div class="service-card">
-                            <div class="card-image"><img src="" alt=""></div>
+                            <div class="card-image" id="app-icon07"></div>
                             <h3 class="card-title">User interface</h3>
                             <p class="description">Jolly good excuse my french boot super my good sir cup </p>
                             <strong>Read more</strong>
                         </div>
                         <div class="service-card">
-                            <div class="card-image"><img src="" alt=""></div>
+                            <div class="card-image" id="app-icon08"></div>
                             <h3 class="card-title">Choose a app</h3>
                             <p class="description">Jolly good excuse my french boot super my good sir cup </p>
                             <strong>Read more</strong>
@@ -226,11 +230,21 @@
                     <button class="btnPrimary">View All</button>
                 </div>
                 <div class="trusted-company">
-                    <button class="btn-companies"><img src="images/company logo/clogo5.png" alt=""><div>Wapkiu</div></button>
-                    <button class="btn-companies"><img src="images/company logo/clogo2.png" alt=""><div>Creone</div></button>
-                    <button class="btn-companies"><img src="images/company logo/clogo3.png" alt=""><div>Rinfall</div></button>
-                    <button class="btn-companies"><img src="images/company logo/clogo4.png" alt=""><div>Ulabs</div></button>
-                    <button class="btn-companies"><img src="images/company logo/clogo1.png" alt=""><div>Spiders</div></button>
+                    <button class="btn-companies"><img src="images/company logo/clogo5.png" alt="">
+                        <div>Wapkiu</div>
+                    </button>
+                    <button class="btn-companies"><img src="images/company logo/clogo2.png" alt="">
+                        <div>Creone</div>
+                    </button>
+                    <button class="btn-companies"><img src="images/company logo/clogo3.png" alt="">
+                        <div>Rinfall</div>
+                    </button>
+                    <button class="btn-companies"><img src="images/company logo/clogo4.png" alt="">
+                        <div>Ulabs</div>
+                    </button>
+                    <button class="btn-companies"><img src="images/company logo/clogo1.png" alt="">
+                        <div>Spiders</div>
+                    </button>
                 </div>
             </div>
         </section>
@@ -245,8 +259,8 @@
                         <input type="checkbox" id="check">
                         <label for="check" class="toggle"></label>
                     </div>
-    
-                     <div class="package-content">
+
+                    <div class="package-content">
                         <div class="package">
                             <h3 class="pack-title">Basic</h3>
                             <div class="divider"><span></span></div>
@@ -255,16 +269,18 @@
                                 <button class="btnPrimary">Get Started</button>
                             </div>
                             <div class="inclouds">
-                                <p class="description"><i class="fa-regular fa-square-check"></i>Custom fields (basic)</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>web forms (basic)</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>Workflows (basic)</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>Reports & Dashboards (basic)</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>Slack integration</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>Roles & profile</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>10,000 records</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Custom fields (basic)
+                                </p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>web forms (basic)</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Workflows (basic)</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Reports & Dashboards
+                                    (basic)</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Slack integration</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Roles & profile</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>10,000 records</p>
                             </div>
-                         </div>
-                         <div class="package">
+                        </div>
+                        <div class="package">
                             <h3 class="pack-title">Standard</h3>
                             <div class="divider"><span></span></div>
                             <div class="buy">
@@ -273,15 +289,17 @@
                             </div>
                             <div class="inclouds">
                                 <p class="description"><i class="fa-regular fa-square-check"></i>Scroring rules</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>Email insights</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>Workflows conversion</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>Tags and group</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>Web forms</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>Custom, unique fields</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>10,000 records</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Email insights</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Workflows conversion
+                                </p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Tags and group</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Web forms</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Custom, unique fields
+                                </p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>10,000 records</p>
                             </div>
-                         </div>
-                         <div class="package">
+                        </div>
+                        <div class="package">
                             <h3 class="pack-title">Premium</h3>
                             <div class="divider"><span></span></div>
                             <div class="buy">
@@ -289,19 +307,23 @@
                                 <button class="btnPrimary">Get Started</button>
                             </div>
                             <div class="inclouds">
-                                <p class="description"><i class="fa-regular fa-square-check"></i>SalesSignals- real-time notification</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>Blueprint- process management</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>Web to case forms</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>Macros</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>Inventory Management</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>Google ads integration</p>
-                            <p class="description"><i class="fa-regular fa-square-check"></i>webhooks</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>SalesSignals- real-time
+                                    notification</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Blueprint- process
+                                    management</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Web to case forms</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Macros</p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Inventory Management
+                                </p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>Google ads integration
+                                </p>
+                                <p class="description"><i class="fa-regular fa-square-check"></i>webhooks</p>
                             </div>
-                         </div>
-                     </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
+
         </section>
         <!-- Pricing section End -->
         <!-- Recent section Start -->
@@ -325,11 +347,11 @@
                         </div>
                     </div>
                     <div class="posts">
-                        <div class="post-img"></div>
+                        <div class="post-img thumnill2"></div>
                         <div class="post-info">
                             <h2 class="title">2022 A year of Booming 2023 the year for booming</h2>
                             <div class="user-info">
-                                <div class="user-img"></div>
+                                <div class="user-img profile2"></div>
                                 <div class="profile">
                                     <h3 class="title">Steve</h1>
                                         <p class="description">21st december 2021</p>
@@ -350,12 +372,12 @@
                     </div>
                     <hr>
                     <h1 class="hastag"><a href=""><i class="fa-brands fa-square-instagram"></i> #Innovate</a></h3>
-                    <div class="insta-view">
-                           <div class="insta-postimg"></div>
-                           <div class="insta-postimg"></div>
-                           <div class="insta-postimg"></div>
-                           <div class="insta-postimg"></div>                     
-                    </div>
+                        <div class="insta-view">
+                            <div class="insta-postimg"></div>
+                            <div class="insta-postimg"></div>
+                            <div class="insta-postimg"></div>
+                            <div class="insta-postimg"></div>
+                        </div>
                 </div>
             </div>
 
